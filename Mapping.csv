@@ -1,0 +1,6 @@
+Customer_SK,FirstName,LastName,Source_Sys_Code,EmailID,MainPhone,AccountStartDate,Status_Code,AddressLine1,City,StateProvince,PostalCode
+1000001,John,Doe,CRM,john.doe@example.com,(555) 123-4567,2022-01-15,A,123 Main St,Anytown,CA,90210
+1000002,Jane,Smith,CRM,jane.smith@other.net,(555) 987-6543,2021-06-20,A,45 River Rd,Smallville,TX,78701
+1000003,Robert,Jones,CRM,robert.jones@test.org,(555) 555-1212,2023-03-01,I,78 Oak Lane,Big City,NY,10001
+1000004,Emily,Brown,CRM,emily.b@corp.com,(555) 222-3333,2022-11-10,P,90 Maple Ave,Suburbia,FL,33101
+1000005,Michael,Wilson,CRM,mwilson@data.co,(555) 444-5555,2021-08-25,A,100 Mountain View,Hillside,WA,98004
