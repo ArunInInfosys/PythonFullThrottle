@@ -1,0 +1,13 @@
+Source Field Name Target Field Name Data Type (Target) Mapping Logic / Transformation Rule
+CRM_CustID Customer_SK BIGINT Primary Key. Direct map from source ID.
+First_Name FirstName VARCHAR(50) Direct map.
+Last_Name VARCHAR(50) Direct map.  
+Source_Sys_Code VARCHAR(10) Hardcoded value: 'CRM'.  
+Email_Address EmailID VARCHAR(100) Direct map.
+Phone_Number MainPhone VARCHAR(15) Clean and format to standard (XXX) XXX-XXXX before loading.
+Acct_Creation_Date AccountStartDate DATE Direct map.
+Customer_Status Status_Code VARCHAR(10) Value lookup: Map 'Active' to 'A', 'Inactive' to 'I', 'Pending' to 'P'.
+Street_Address AddressLine1 VARCHAR(100) Direct map.
+City City VARCHAR(50) Direct map.
+State_Prov StateProvince VARCHAR(50) Direct map.
+Zip_Postal_Code PostalCode
